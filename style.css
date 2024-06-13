@@ -1,0 +1,65 @@
+* {
+  font-family: 'Saira', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+  background: #0f0d13;
+}
+.hide {
+  display: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-player {
+  background: #2a2141;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 40px;
+}
+.desc-musica {
+  margin: 20px 0px 15px 0px;
+}
+.desc-musica span {
+  color: #9895a5;
+}
+.conteudo-musica p {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.conteudo-musica span {
+  font-size: 1.8rem;
+}
+.controles {
+  margin: 10px 0px 30px 0px;
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+}
+.controles button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container-progresso input {
+  width: 100%;
+}
+.tempo-musica {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  opacity: 0.8;
+  font-weight: 400;
+}
+#capa-musica {
+  border-radius: 20px;
+}
